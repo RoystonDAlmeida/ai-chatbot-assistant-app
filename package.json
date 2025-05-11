@@ -1,0 +1,21 @@
+{
+  "name": "ai-assist-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "genkit:dev": "genkit start tsx src/ai/dev.ts",
+    "genkit:watch": "genkit start -- watch src/ai/dev.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.8.0",
+    "dotenv": "^16.5.0",
+    "genkit": "^1.8.0",
+    "genkit-cli": "^1.8.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  }
+}
